@@ -613,6 +613,7 @@ class Mo_SAML_Assertion_Handler
      * @param DOMElement $root
      *            The assertion element we should add the Encrypted Attribute Statement to.
      */ 
+// test merge
     private function mo_saml_add_encrypted_attribute_statement(DOMElement $root)
     {
         if (false === $this->assertion->mo_saml_get_encrypted_attributes()) {
