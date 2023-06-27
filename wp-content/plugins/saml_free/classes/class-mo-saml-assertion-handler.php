@@ -619,7 +619,6 @@ class Mo_SAML_Assertion_Handler
         if (false === $this->assertion->mo_saml_get_encrypted_attributes()) {
             return;
         }
-//test
         // phpcs:ignore WordPress.NamingConventions.ValidVariableName.UsedPropertyNotSnakeCase -- Working with PHP DOMElement Attributes.
         $document = $root->ownerDocument;
 
